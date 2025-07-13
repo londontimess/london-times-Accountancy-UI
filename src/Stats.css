@@ -1,0 +1,47 @@
+.stats-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.stats-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 180px; /* fixed width for uniform size */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stat-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.visitor-counter {
+  height: 30px; /* adjust to match other number sizes */
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: #666;
+}

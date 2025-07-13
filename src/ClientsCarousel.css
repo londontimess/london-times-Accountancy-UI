@@ -1,0 +1,28 @@
+.client-card {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.client-image {
+  width: 100%;
+  max-width: 150px; /* adjust as needed */
+  height: 150px;    /* fixed height for consistency */
+  object-fit: cover; /* cover crops & fills nicely */
+  border-radius: 50%; /* make it circular, remove if square preferred */
+  margin: 0 auto 10px auto;
+}
+
+.client-sector {
+  font-style: italic;
+  color: #555;
+}
+
+.client-testimonial {
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 10px;
+}
+
