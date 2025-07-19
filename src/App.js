@@ -3,11 +3,12 @@ import './App.css';
 import emailjs from 'emailjs-com';
 import Stats from './Stats';  
 import ClientsCarousel from './ClientsCarousel';
+import WhatsAppContact from "./WhatsAppContact";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import logo from './images/only_logo_w_text.png'; // Adjust if your path differs
+import logo from './src_images/only_logo_w_text.png'; // Adjust if your path differs
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -78,11 +79,15 @@ function App() {
       </section>
 
       <section className="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@londontimesaccountancy.co.uk</p>
-        <p>Phone: +44 20 xxxx xxxx</p>
-        <button className="cta-button" onClick={() => setShowModal(true)}>Book Free Consultation</button>
-      </section>
+      <h2>Contact Us</h2>
+      <p>Email: sameer@londontimes.co.uk</p>
+      
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: "20px" }}>
+      <WhatsAppContact number="+918692990900" displayNumber="+91 8692990900" />
+    </div>
+
+      <button className="cta-button" onClick={() => setShowModal(true)}>Book Free Consultation</button>
+    </section>
 
       <ClientsCarousel />
       <Stats />

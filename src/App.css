@@ -37,7 +37,7 @@ nav h1 {
 }
 
 .hero {
-  background: url('./images/invoice.avif') center/cover no-repeat;
+  background: url('./src_images/invoice.avif') center/cover no-repeat;
   height: 400px;
   position: relative;
 }
