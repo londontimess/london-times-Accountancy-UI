@@ -27,24 +27,28 @@ const ClientsCarousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,                // Faster for smoother feel
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    centerMode: false,
+    autoplaySpeed: 2500,
+    swipeToSlide: true,
+    pauseOnHover: true,
+    cssEase: "ease-in-out",
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false
         }
       }
     ]
   };
 
   const handleImageError = (e) => {
-    e.target.src = "https://via.placeholder.com/120?text=No+Image";
+    e.target.src = "https://via.placeholder.com/150?text=No+Image";
   };
 
   return (
@@ -59,6 +63,7 @@ const ClientsCarousel = () => {
                 onError={handleImageError}
                 alt={client.name}
                 className="client-image"
+                loading="lazy"
               />
             </div>
             <h3 className="client-name">{client.name}</h3>

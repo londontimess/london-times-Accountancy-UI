@@ -62,3 +62,8 @@
   max-width: 85%;
   margin: 0 auto;
 }
+.slick-slide {
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
