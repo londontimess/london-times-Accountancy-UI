@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/london-times-Accountancy-UI/static/css/main.2b6b2799.css",
-    "main.js": "/london-times-Accountancy-UI/static/js/main.c13e9982.js",
+    "main.css": "/london-times-Accountancy-UI/static/css/main.0a81ab66.css",
+    "main.js": "/london-times-Accountancy-UI/static/js/main.cb6a1ee8.js",
     "static/js/453.563736b5.chunk.js": "/london-times-Accountancy-UI/static/js/453.563736b5.chunk.js",
     "static/media/only_logo_w_text.png": "/london-times-Accountancy-UI/static/media/only_logo_w_text.c2e3d96d84cac39c1460.png",
     "static/media/invoice.avif": "/london-times-Accountancy-UI/static/media/invoice.fda4bd52a3ef59ecf159.avif",
@@ -10,12 +10,12 @@
     "static/media/slick.ttf": "/london-times-Accountancy-UI/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/london-times-Accountancy-UI/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/london-times-Accountancy-UI/index.html",
-    "main.2b6b2799.css.map": "/london-times-Accountancy-UI/static/css/main.2b6b2799.css.map",
-    "main.c13e9982.js.map": "/london-times-Accountancy-UI/static/js/main.c13e9982.js.map",
+    "main.0a81ab66.css.map": "/london-times-Accountancy-UI/static/css/main.0a81ab66.css.map",
+    "main.cb6a1ee8.js.map": "/london-times-Accountancy-UI/static/js/main.cb6a1ee8.js.map",
     "453.563736b5.chunk.js.map": "/london-times-Accountancy-UI/static/js/453.563736b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b6b2799.css",
-    "static/js/main.c13e9982.js"
+    "static/css/main.0a81ab66.css",
+    "static/js/main.cb6a1ee8.js"
   ]
 }
